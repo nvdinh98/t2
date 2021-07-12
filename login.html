@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  // let signName=prompt(" moi ban nhap signname");
+  //
+  // if (signName="Admin") {
+  //   let pass =prompt("nhap mat khau SignIn");
+  //
+  //   if(pass="the master"){
+  //     alert("WELLCOME");
+  //   } else if("pass=null") {
+  //     alert("CANCEL");
+  //   } else {
+  //     alert("I don't know you");
+  //   }
+  // }
+  // if (signName="Null") {
+  //   alert("CANCEL");
+  // }
+
+
+  let userName = prompt("Who's there?", '');
+
+  if( userName= "Admin" ){
+    let pass=prompt("password");
+    if(pass=="the master"){
+      alert("Wellcome");
+    }else if(pass=='null'){
+      alert("Cancel");
+
+    }else {
+      alert('Wrong password');
+    }
+  }else if( userName= 'null'){
+    alert("cancel");
+  }
+
+</script>
+</body>
+</html>
